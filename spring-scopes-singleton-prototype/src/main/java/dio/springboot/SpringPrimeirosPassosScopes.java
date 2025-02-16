@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringPrimeirosPassosApplication {
+public class SpringPrimeirosPassosScopes {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringPrimeirosPassosApplication.class, args);
+		SpringApplication.run(SpringPrimeirosPassosScopes.class, args);
 	}
 	@Bean
 	public CommandLineRunner run(SistemaMensagem sistema) throws Exception {
